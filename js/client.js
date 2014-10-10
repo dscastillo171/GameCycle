@@ -33,7 +33,7 @@ window.onload = function(){
 	var context, canvas;
 	var avatarState = 'running';
 	var movementCounter = 1;
-	var avatarStill = [{x: 6, y: 0}, {x: 7,y: 0}, {x: 0,y: 1}, {x: 1,y: 1}, {x: 0,y: 1}, {x: 6,y: 1}];
+	var avatarStill = [{x: 5, y: 0}, {x: 7,y: 0}, {x: 0,y: 1}, {x: 1,y: 1}, {x: 0,y: 1}, {x: 6,y: 1}];
 	var avatarRunning = [{x: 0, y: 4}, {x: 1,y: 4}, {x: 2,y: 4}, {x: 3,y: 4}, {x: 4,y: 4}, {x: 5,y: 4}, {x: 6,y: 4}, {x: 7,y: 4}, {x: 0,y: 5}, {x: 1,y: 5}, {x: 2,y: 5}, {x: 1,y: 5}, {x: 0,y: 5}, {x: 7,y: 4}, {x: 6,y: 4}];
 
 	// Image sprites.
